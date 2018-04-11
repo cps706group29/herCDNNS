@@ -31,9 +31,8 @@ public class HerCDNNS{
       InetAddress IPAddress = receivePacket.getAddress();
       int port = receivePacket.getPort();
 
-      ///////////////////////// RESOLVE REQUEST ///////////////////////
+      //RESOLVE REQUEST
       String response = resolve(requestURL);
-      ////////////////////////////////////////////////////////////////
 
       sendData = response.getBytes();
       DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, IPAddress, port);
