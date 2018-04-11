@@ -2,13 +2,13 @@
 Class `ResourceRecord` stores psuedo resource record objects.  
 
 By default, `ns.herCDN.com` contains the following Resource Records:  
-- (herCDN.com, www.herCDN.com, CN) : *Canonical resolve for herCDN.com*
-- (www.herCDN.com, xxx.xxx.xxx.xxx, A) *IPv4 for www.herCDN.com*  
+- (herCDN.com, www.herCDN.com, CN) : *Canonical Name for herCDN.com*
+- (www.herCDN.com, xxx.xxx.xxx.xxx, A) *IP for www.herCDN.com*  
 
 ## Set up
 The following variables should be set:
 - IP for web-server/machine running **ww.herCDN.com**
-- Port for name-server/machine running *ns.hercdn.com*  
+- Port for name-server/machine running **ns.hercdn.com**  
 
 Set the two lines accordingly:
 ```
