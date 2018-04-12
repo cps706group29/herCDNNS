@@ -1,23 +1,17 @@
-# Authoritative Name Server ns.HerCDN.com
-Class `ResourceRecord` stores psuedo resource record objects.  
+# Authoritative Name Server `ns.HerCDN.com`
 
 By default, `ns.herCDN.com` contains the following Resource Records:  
-- (herCDN.com, www.herCDN.com, CN) : *Canonical Name for herCDN.com*
-- (www.herCDN.com, xxx.xxx.xxx.xxx, A) *IP for www.herCDN.com*  
+| Resource Record | Use |
+| - | - |
+| (herCDN.com, www.herCDN.com, CN) | Translates `herCDN.com` to `www.herCDN.com` |
+| (www.herCDN.com, xxx.xxx.xxx.xxx, A) | IP for `www.herCDN.com` |  
 
-## Set up
-The following variables should be set:
-- IP for web-server/machine running **ww.herCDN.com**
-- Port for name-server/machine running **ns.hercdn.com**  
-
-Set the two lines accordingly:
-```
-public static final String HER_CDN_IP = "xxx.xxx.xxx.xxx";
-public static final int HIS_CINEMA_NS_LISTENING_PORT = xxxxx;
-```
-## Run
+## Compile and Run
 To run
 ```
 javac HerCDNNS.java
 java HerCDNNS
 ```
+Set following variables after running the program:
+- **IP** for the web-server/machine running `www.herCDN.com`
+- **PORT** for the name-server/machine running `ns.herCDN.com`
