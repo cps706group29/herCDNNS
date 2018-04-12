@@ -3,7 +3,7 @@ import java.net.*;
 import java.util.*;
 
 public class HerCDNNS{
-  public static final String HER_CDN_IP = "127.0.0.1";
+  public static final String HER_CDN_IP = "127.0.0.4";
   public static final int HIS_CINEMA_NS_LISTENING_PORT = 40283;
 
   public static ArrayList<ResourceRecord> records;
