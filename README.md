@@ -1,10 +1,11 @@
 # Authoritative Name Server `ns.HerCDN.com`
 
-By default, `ns.herCDN.com` contains the following Resource Records:  
+By default, `ns.herCDN.com` contains the following Resource Records:
+
 | Resource Record | Use |
 | - | - |
 | (herCDN.com, www.herCDN.com, CN) | Translates `herCDN.com` to `www.herCDN.com` |
-| (www.herCDN.com, xxx.xxx.xxx.xxx, A) | IP for `www.herCDN.com` |  
+| (www.herCDN.com, xxx.xxx.xxx.xxx, A) | IP for `www.herCDN.com` |
 
 ## Compile and Run
 To run
